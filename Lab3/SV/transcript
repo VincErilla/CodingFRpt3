@@ -12,21 +12,18 @@
 # //  18 U.S.C. Section 1905.
 # //
 # do fsm.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is verilla@CEAT-ENDV350-04.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Errors: 0, Warnings: 1
 # Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
-# Start time: 16:20:53 on Nov 01,2023
+# Start time: 16:41:26 on Nov 02,2023
 # vlog -reportprogress 300 fsm.sv fsm_tb.sv 
 # -- Compiling module FSM
 # -- Compiling module stimulus
 # 
 # Top level modules:
 # 	stimulus
-# End time: 16:20:53 on Nov 01,2023, Elapsed time: 0:00:00
+# End time: 16:41:26 on Nov 02,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.stimulus 
-# Start time: 16:20:53 on Nov 01,2023
+# Start time: 16:41:27 on Nov 02,2023
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vopt-143) Recognized 1 FSM in module "FSM(fast)".
 # Loading sv_std.std
@@ -34,15 +31,15 @@
 # Loading work.FSM(fast)
 # .main_pane.list.interior.cs.body
 # .main_pane.wave.interior.cs.body.pw.wf
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: verilla  Hostname: CEAT-ENDV350-04  ProcessID: 24016
-#           Attempting to use alternate WLF file "./wlftcdcnq1".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftcdcnq1
 # ** Note: $finish    : fsm_tb.sv(28)
 #    Time: 500 ns  Iteration: 0  Instance: /stimulus
 # 1
 # Break in Module stimulus at fsm_tb.sv line 28
-# Causality operation skipped due to absence of debug database file
-# End time: 16:25:45 on Nov 01,2023, Elapsed time: 0:04:52
-# Errors: 0, Warnings: 2
+# Debug data file, vsim.dbg, does not exist.
+# 
+# Invoke vsim with -debugDB to create this file.
+# Debug data file, vsim.dbg, does not exist.
+# 
+# Invoke vsim with -debugDB to create this file.
+# End time: 16:41:49 on Nov 02,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
